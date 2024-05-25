@@ -1,0 +1,46 @@
+body {
+    background-color: #100F0F;
+    margin: 0;
+}
+.logo {
+    margin-right: 600px;
+}
+.navbar {
+    display: flex;
+    gap: 77px;
+    justify-content: flex-end;
+    margin-right: 77px;
+    margin-top: 15px;
+}
+.navbar, a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.hsatu {
+    display: flex;
+    justify-content: center;
+    font-family: "Angkor", serif;
+    font-size: 70px;
+    margin-top: 150px;
+    color: #FFFFFF;
+}
+.textguys {
+    color: #D83BD2;
+    margin-left: 20px;
+}
+.paragraf {
+    font-family: "Anek Kannada", sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+}
+.footer {
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #100F0F;
+    text-align: center;
+    margin: 0;
+ }

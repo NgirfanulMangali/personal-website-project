@@ -1,19 +1,26 @@
 body {
     background-color: #100F0F;
+    margin: 0;
+}
+.logo {
+    margin-right: 600px;
 }
 .navbar {
     display: flex;
     gap: 77px;
     justify-content: flex-end;
     margin-right: 77px;
+    margin-top: 15px;
 }
 .navbar, a {
     text-decoration: none;
     font-size: 16px;
     color: white;
 }
-.logo {
-    margin-right: 600px;
+.navbar, a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
 }
 .container {
     display: grid;
@@ -31,6 +38,8 @@ body {
 .hi {
     color: #3DEFE9;
     margin-right: 30px;
+    font-family: "Angkor", serif;
+    font-size: 70px;
 }
 .paragrafdua {
     grid-column-start: 4;
@@ -62,8 +71,10 @@ body {
     grid-column-end: 7;
 }
 .footer {
-   height: 30px;
-    color: rgb(43, 43, 46);
-    background-color: #FFFFFF;
-    text-align: center;
+   padding: 10px;
+   background-color: #FFFFFF;
+   color: #100F0F;
+   text-align: center;
+   margin: 0;
 }
+  
