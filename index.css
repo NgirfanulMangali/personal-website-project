@@ -1,0 +1,69 @@
+body {
+    background-color: #100F0F;
+}
+.navbar {
+    display: flex;
+    gap: 77px;
+    justify-content: flex-end;
+    margin-right: 77px;
+}
+.navbar, a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.logo {
+    margin-right: 600px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(10,140px);
+    grid-template-rows: repeat(9,120px);
+   
+}
+.paragrafsatu {
+    grid-column-start: 5;
+    grid-row-start: 2;
+    font-family: "Anton", sans-serif;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.hi {
+    color: #3DEFE9;
+    margin-right: 30px;
+}
+.paragrafdua {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    font-family: "Anton", sans-serif;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.mangali {
+    color: #FED02D;
+    margin-left: 30px;
+}
+.paragraftiga {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    font-family: "Anton", sans-serif;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.afrontend {
+    color: #6FDA6D;
+    margin-right: 30px;
+}
+.fotohomepage {
+    grid-row-start: 6;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+.footer {
+   height: 30px;
+    color: rgb(43, 43, 46);
+    background-color: #FFFFFF;
+    text-align: center;
+}
