@@ -78,8 +78,12 @@ body {
 .footer {
     padding: 10px;
     background-color: #FFFFFF;
+    color: #100F0F;
+    text-align: center;
+    margin: 0;
+ }
 
-    
+
 @media (min-width: 375px) {
 
 }
@@ -87,8 +91,3 @@ body {
 @media (min-width: 1440px) {
    
   }
-    color: #100F0F;
-    text-align: center;
-    margin: 0;
- }
-   
