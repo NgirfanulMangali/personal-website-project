@@ -78,6 +78,15 @@ body {
 .footer {
     padding: 10px;
     background-color: #FFFFFF;
+
+    
+@media (min-width: 375px) {
+
+}
+
+@media (min-width: 1440px) {
+   
+  }
     color: #100F0F;
     text-align: center;
     margin: 0;
