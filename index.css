@@ -1,4 +1,5 @@
-body {
+@media screen and (min-width: 0px) {
+   body {
     background-color: #100F0F;
     margin: 0;
 } 
@@ -72,21 +73,82 @@ body {
    text-align: center;
    margin: 0;
 }
-
-
-@media screen and (min-width: 0px) {
-    .container {
-    display: grid;
-    grid-template-columns: repeat(14, 95px);
-    grid-template-rows: repeat(15, 100px);
-}
 }
 
-@media (min-width: 1440px) {
-   .container {
+@media screen and (min-width: 1440px) {
+   body {
+    background-color: #100F0F;
+    margin: 0;
+} 
+.logo {
+    margin-right: 600px;
+}
+.navbar {
+    display: flex;
+    gap: 77px;
+    justify-content: flex-end;
+    margin-right: 77px;
+    margin-top: 15px;
+}
+.navbar, a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.container {
     display: grid;
-    grid-template-columns: repeat(14, 95px);
-    grid-template-rows: repeat(15, 100px);
+    grid-template-columns: repeat(10,140px);
+    grid-template-rows: repeat(9,120px);
+   
+}
+.paragrafsatu {
+    grid-column-start: 5;
+    grid-row-start: 2;
+    font-family: "Anton", sans-serif;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.hi {
+    color: #3DEFE9;
+    margin-right: 30px;
+    font-family: "Angkor", serif;
+    font-size: 70px;
+}
+.paragrafdua {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    font-family: "Anton", sans-serif;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.mangali {
+    color: #FED02D;
+    margin-left: 30px;
+}
+.paragraftiga {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    font-family: "Anton", sans-serif;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.afrontend {
+    color: #6FDA6D;
+    margin-right: 30px;
+}
+.fotohomepage {
+    grid-row-start: 6;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+.footer {
+   padding: 10px;
+   background-color: #FFFFFF;
+   color: #100F0F;
+   text-align: center;
+   margin: 0;
 }
   }
 
