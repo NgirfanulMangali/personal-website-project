@@ -74,11 +74,20 @@ body {
 }
 
 
-@media (min-width: 375px) {
-
+@media screen and (min-width: 0px) {
+    .container {
+    display: grid;
+    grid-template-columns: repeat(14, 95px);
+    grid-template-rows: repeat(15, 100px);
+}
 }
 
 @media (min-width: 1440px) {
-   
+   .container {
+    display: grid;
+    grid-template-columns: repeat(14, 95px);
+    grid-template-rows: repeat(15, 100px);
+}
   }
+
   
