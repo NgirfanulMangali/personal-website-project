@@ -44,3 +44,12 @@ body {
     text-align: center;
     margin: 0;
  }
+
+
+@media (min-width: 375px) {
+
+}
+
+@media (min-width: 1440px) {
+   
+  }
