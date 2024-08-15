@@ -1,4 +1,5 @@
-body {
+@media screen and (min-width: 0px) {
+   body {
     background-color: #100F0F;
     margin: 0;
 } 
@@ -82,18 +83,91 @@ body {
     text-align: center;
     margin: 0;
  }
-@media screen and (min-width: 0px) {
-    .container {
-    display: grid;
-    grid-template-columns: repeat(14, 95px);
-    grid-template-rows: repeat(15, 100px);
-}
 }
 
 @media (min-width: 1440px) {
-   .container {
+   body {
+    background-color: #100F0F;
+    margin: 0;
+} 
+.logo {
+    margin-right: 600px;
+}
+.navbar {
+    display: flex;
+    gap: 77px;
+    justify-content: flex-end;
+    margin-right: 77px;
+    margin-top: 15px;
+}
+#link {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255)
+}
+.container {
     display: grid;
     grid-template-columns: repeat(14, 95px);
     grid-template-rows: repeat(15, 100px);
 }
+.featuredworks {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+}
+.judulprojects {
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+}
+.deskripsiproject {
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 14px;
+}
+.linkproject {
+    color: aqua;
+}
+.projectsatu {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+}
+.projectdua {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 4;
+
+}
+.projecttiga {
+    grid-row-start: 8;
+    grid-column-start: 5;
+    grid-column-end: 7;
+
+}
+.projectempat {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 8;
+
+}
+.projectlima {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 12;
+
+}
+.projectenam {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 12;
+}
+.footer {
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #100F0F;
+    text-align: center;
+    margin: 0;
+ }
   }
