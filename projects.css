@@ -85,7 +85,7 @@
  }
 }
 
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
    body {
     background-color: #100F0F;
     margin: 0;
